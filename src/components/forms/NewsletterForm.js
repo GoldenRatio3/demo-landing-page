@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import classnames from "classnames";
+import { Button } from "@material-ui/core";
 
 class NewsletterForm extends Component {
   state = {
@@ -17,6 +18,7 @@ class NewsletterForm extends Component {
       <form className={classNames}>
         <div className="control control-expanded">
           <input
+            style={{ borderRadius: "14px" }}
             className="input"
             type="email"
             name="email"
@@ -24,12 +26,14 @@ class NewsletterForm extends Component {
           />
         </div>
         <div className="control">
-          <button
-            className="button button-primary button-block button-shadow"
+          <Button
+            variant="contained"
+            color="primary"
+            style={{ borderRadius: "14px" }}
             type="submit"
           >
             {submit}
-          </button>
+          </Button>
         </div>
       </form>
     );
