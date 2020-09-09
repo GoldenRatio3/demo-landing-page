@@ -9,14 +9,14 @@
 .header-brand h1 {
 	font-size: 20px;
 	font-weight: 700;
-    line-height: 1;
+	line-height: 1;
 	text-transform: uppercase;
 }
 
 .header-brand a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
 }
 
 .header-brand svg {
@@ -25,7 +25,7 @@
 
 @media (min-width: 1025px) {
 	.site-header-large-bg span {
-		height: 400vh
+		height: 400vh;
 	}
 }
 
@@ -62,20 +62,20 @@
 }
 
 .entry-media::before {
-    content: '';
-    position: absolute;
-    left: -150px;
-    right: 0;
-    top: 0;
-    bottom: -300px;
-    background: #8179f2;
-    background: linear-gradient(to bottom, #665DF0 0, #9B95F3 100%);
+	content: "";
+	position: absolute;
+	left: -150px;
+	right: 0;
+	top: 0;
+	bottom: -300px;
+	background: #8179f2;
+	background: linear-gradient(to bottom, #665df0 0, #9b95f3 100%);
 }
 
 .entry-media img,
 .entry-media svg,
 .entry-media iframe {
-    overflow: visible;
+	overflow: visible;
 	max-width: none;
 	margin-left: auto;
 	position: relative;
@@ -109,10 +109,10 @@
 
 @media (min-width: 1025px) {
 	.entry {
-    	text-align: left;
-    	padding-top: 80px;
-    	padding-bottom: 80px;
-    	width: 100%;
+		text-align: left;
+		padding-top: 80px;
+		padding-bottom: 80px;
+		width: 100%;
 	}
 
 	.entry::before {
@@ -123,29 +123,29 @@
 	}
 
 	.entry-inner {
-	  display: flex;
+		display: flex;
 	}
 
 	.entry-content {
-	  padding-top: 60px;
-	  padding-right: 88px;
-	  min-width: 600px;
-	  max-width: 62%;
+		padding-top: 60px;
+		padding-right: 88px;
+		min-width: 600px;
+		max-width: 62%;
 	}
 
 	.entry-body {
-	  padding-left: 0;
-	  padding-right: 0;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	.entry-media {
-	  right: 0;
-	  padding: 0;
-	  width: 100%;
+		right: 0;
+		padding: 0;
+		width: 100%;
 	}
 
 	.entry-media::before {
-	    content: normal;
+		content: normal;
 	}
 
 	.entry-media img,
